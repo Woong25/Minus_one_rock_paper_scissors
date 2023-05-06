@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위바위보 하나빼기</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="./assets/scripts/index.js"></script>
+</head>
+<body>
+    <main class="page">
+        <section id="sec_title" class="on">
+            <h1>
+                가위바위보<br />
+                <span>하나 빼기</span>
+            </h1>
+            <a href="javascript:;" class="btn" onclick="game()">시작하기</a>
+        </section>
+        <section id="sec_choice">
+            <h1>
+                가위바위보!<br />
+                <span>두가지 선택</span>
+            </h1>
+            <ul class="icons icon_choice">
+                <li>
+                    <input type="checkbox" id="rock" name="rock">
+                    <label for="rock"><i class="fas fa-hand-rock"></i></label>
+                </li>
+                <li>
+                    <input type="checkbox" id="peace" name="peace">
+                    <label for="peace"><i class="fas fa-hand-peace"></i></label>
+                </li>
+                <li>
+                    <input type="checkbox" id="paper" name="paper">
+                    <label for="paper"><i class="fas fa-hand-paper"></i></label>
+                </li>
+            </ul>
+            <div><a href="javascript:;" class="btn hide" onclick="game()">선택 완료</a></div>
+        </section>
+        <section id="sec_versus">
+            <h1>
+                하나 빼기!<br />
+                <span>한가지 선택</span>
+            </h1>
+            <ul class="icons icon_versus"></ul>
+            <div class="versus"></div>
+            <ul class="icons icon_versus_pc"></ul>
+            <div><a href="javascript:;" class="btn hide" onclick="game()">대결</a></div>
+        </section>
+        <span id="middle"></span>
+    </main>
+</body>
+</html>

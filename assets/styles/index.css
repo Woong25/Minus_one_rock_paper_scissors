@@ -1,0 +1,34 @@
+html, body{height: 100%; background: #fff; font-family: 'NanumSquare', sans-serif;}
+a{text-decoration: none;}
+.hide{visibility: hidden; pointer-events: none; user-select: none;}
+.btn{display: inline-block; background: #000; color: #fff; font-weight: 700; font-size: 17px; min-width: 160px; height: 55px; line-height: 55px; text-align: center; border-radius: 50px; box-sizing: border-box; padding: 0 20px; margin-top: 30px; user-select: none;}
+.versus{display: block; height: 20px; line-height: 20px; position: relative; margin-top: 20px;}
+.versus:before{content: ""; position: absolute; background: #8b8b8b; width: 100%; height: 1px; top: 10px; left: 0;}
+.versus:after{content: "VS"; position: absolute; background: #fff; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 5px; font-size: 14px; font-weight: 700; color: #8b8b8b;}
+.page{width: 100%; height: 100%; text-align: center; padding: 50px 0; overflow: auto;}
+.page > section{display: none; vertical-align: middle;}
+.page > section.on{display: inline-block;}
+h1{text-align: center; letter-spacing: 1px; margin: 0; font-size: 32px;}
+h1 span{display: block; font-size: 50px; margin-top: 7px; word-spacing: -5px;}
+section{text-align: center;}
+section .icons{display: inline-block; overflow: hidden; list-style: none; margin: 0; margin-top: 30px;}
+section .icons > li{float: left; transition: .2s}
+section .icons > li + li{margin-left: 20px;}
+section .icons > li > label{display: block; font-size: 50px; color: #000; width: 140px; height: 140px; line-height: 140px; cursor: pointer; border: 2px solid #000; border-radius: 100px; transition: .2s}
+section .icons > li > input{display: none}
+section .icons > li > input:checked + label{background: #000; color: #fff; font-size: 55px}
+section .icons.icon_versus_pc{margin-top: 20px;}
+section .icons.lose > li > label,
+section .icons.icon_versus_pc > li > label{background: #e1e1e1 !important; border-color: #858585; color: #858585 !important; cursor: default;}
+section .icons.win > li > label{background: #000 !important; color: #fff !important; border-color: #000 !important;}
+
+#middle{display: inline-block; height: 100%; vertical-align: middle;}
+@media (max-width: 530px){
+    h1{font-size: 22px}
+    h1 span{font-size: 36px}
+    .btn{min-width: 120px; height: 40px; line-height: 40px; font-size: 15px; margin-top: 20px;}
+    section .icons{margin-top: 20px;}
+    section .icons > li + li{margin-left: 15px;}
+    section .icons > li > label{width: 90px; height: 90px; line-height: 90px; font-size: 35px;}
+    section .icons > li > input:checked + label{font-size: 40px}
+}
