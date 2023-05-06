@@ -1,5 +1,5 @@
 html, body{height: 100%; background: #fff; font-family: 'NanumSquare', sans-serif;}
-a{text-decoration: none;}
+input, textarea, button, select, a, label{-webkit-tap-highlight-color: transparent; outline: none; text-decoration: none;}
 .hide{visibility: hidden; pointer-events: none; user-select: none;}
 .btn{display: inline-block; background: #000; color: #fff; font-weight: 700; font-size: 17px; min-width: 160px; height: 55px; line-height: 55px; text-align: center; border-radius: 50px; box-sizing: border-box; padding: 0 20px; margin-top: 30px; user-select: none;}
 .versus{display: block; height: 20px; line-height: 20px; position: relative; margin-top: 20px;}
@@ -14,7 +14,7 @@ section{text-align: center;}
 section .icons{display: inline-block; overflow: hidden; list-style: none; margin: 0; margin-top: 30px;}
 section .icons > li{float: left; transition: .2s}
 section .icons > li + li{margin-left: 20px;}
-section .icons > li > label{display: block; font-size: 50px; color: #000; width: 140px; height: 140px; line-height: 140px; cursor: pointer; border: 2px solid #000; border-radius: 100px; transition: .2s}
+section .icons > li > label{display: block; font-size: 50px; color: #000; width: 140px; height: 140px; line-height: 140px; cursor: pointer; border: 2px solid #000; border-radius: 100px; transition: .2s; outline: none;}
 section .icons > li > input{display: none}
 section .icons > li > input:checked + label{background: #000; color: #fff; font-size: 55px}
 section .icons.icon_versus_pc{margin-top: 20px;}

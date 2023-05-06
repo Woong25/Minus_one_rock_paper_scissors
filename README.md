@@ -6,6 +6,9 @@
 </p>
 
 # 👀 Demo
-<div><a href="https://minus-one-rock-paper-scissors.vercel.app/" target="_blank">https://minus-one-rock-paper-scissors.vercel.app/</a></div>
+<p>
+    <a href="https://minus-one-rock-paper-scissors.vercel.app/" target="_blank">https://minus-one-rock-paper-scissors.vercel.app/</a>
+    <a href="https://codepen.io/dnd2/pen/PoyEVGL" target="_blank">https://codepen.io/dnd2/pen/PoyEVGL</a>
+</p>
 <img src="https://raw.githubusercontent.com/Woong25/Minus_one_rock_paper_scissors/master/assets/images/demo1.jpg" /> <img src="https://raw.githubusercontent.com/Woong25/Minus_one_rock_paper_scissors/master/assets/images/demo2.jpg" />
 <img src="https://raw.githubusercontent.com/Woong25/Minus_one_rock_paper_scissors/master/assets/images/demo3.jpg" /> <img src="https://raw.githubusercontent.com/Woong25/Minus_one_rock_paper_scissors/master/assets/images/demo4.jpg" />
