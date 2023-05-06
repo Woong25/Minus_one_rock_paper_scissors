@@ -75,6 +75,7 @@ function game(type){
         $('section').removeClass('on');
         $('#sec_choice').addClass('on');
         $('#sec_versus h1').html('하나 빼기!<br /><span>한가지 선택</span>');
+        $('#sec_versus .btn').text('대결')
         $('.icon_versus, .icon_versus_pc').html('').removeClass('win').removeClass('lose')
 
         return false;
